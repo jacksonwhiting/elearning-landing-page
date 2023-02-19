@@ -32,14 +32,6 @@ html:focus-within {
    scroll-behavior: smooth;
 }
 
-/* Set core body defaults */
-body {
-   min-height: 100vh;
-   text-rendering: optimizeSpeed;
-   line-height: 1.5;
-   font-family: var(--primary-font);
-}
-
 /* A elements that don't have a class get default styles */
 a:not([class]) {
    text-decoration-skip-ink: auto;
@@ -83,4 +75,11 @@ select {
    --main-color: linear-gradient(180deg, #B068E9 0%, #6463E7 100%);
    --second-color: #fff;
    --primary-font: 'Kumbh Sans', sans-serif;
+}
+
+body {
+   min-height: 100vh;
+   text-rendering: optimizeSpeed;
+   line-height: 1.5;
+   font-family: var(--primary-font);
 }
